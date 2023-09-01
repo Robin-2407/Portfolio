@@ -3,9 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Robin Sukhdeve | JAVA Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaquries.css">
 </head>
 <body>
-  
+  <header>
+    <nav id="desktop-nav">
+      <div class="logo">Robin Sukhdeve</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo">Robin Sukhdeve</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contactme" onclick="toggleMenu()">Contact Me</a></li>
+        </div>
+    </div>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <div class="section__pic container">
+      <img src="./assets/IMG_7986-1-removebg-modified.png" alt="Robin sukhdeve profile image">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hi, I'm 👋</p>
+      <h1 class="title">Robin Sukhdeve</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Robin_Resume_pdf.pdf')">Download CV</button>
+      </div>
+    </div>
+  </section>
+  <script src="scripts.js"></script>
 </body>
 </html>
