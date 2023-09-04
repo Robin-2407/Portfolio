@@ -34,7 +34,8 @@
     .section__pic-container{
         width: 275px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: 1rem auto 2rem;
+        justify-content: center;
     }
     .about-containers{
         margin-top: 0;
@@ -93,5 +94,9 @@
     }
     .text-container{
         text-align: justify;
+    }
+    .project-img2{
+        height: 150px;
+        width: 250px;
     }
 }
