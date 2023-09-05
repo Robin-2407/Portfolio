@@ -14,6 +14,7 @@
     #hamburger-nav{
         display: flex;
     }
+
     #skills,
     .skills-details-container{
         margin-top: 2rem;
@@ -34,7 +35,7 @@
     .section__pic-container{
         width: 275px;
         height: 275px;
-        margin: 1rem auto 2rem;
+        margin: 0 auto 2rem;
         justify-content: center;
     }
     .about-containers{
@@ -95,8 +96,7 @@
     .text-container{
         text-align: justify;
     }
-    .project-img2{
+    .img2{
         height: 150px;
-        width: 250px;
     }
 }

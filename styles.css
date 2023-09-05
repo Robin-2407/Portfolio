@@ -366,11 +366,8 @@ article .icon{
     /* transform: scale(00%); */
 }
 
-.project-img2{
-    border-radius: 2rem;
-    /* width: 90%; */
-    /* height: 90%; */
-    transform: scalex(100%);
+.img2{
+    height: 235px;
 }
 
 .project-title{
